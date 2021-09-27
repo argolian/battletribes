@@ -1,0 +1,51 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base
+{
+    .rel-flex-items-top
+    {
+        @apply relative flex justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0;
+    }
+
+    .login
+    {
+        @apply hidden fixed top-0 right-0 px-6 py-4 sm:block;
+    }
+
+    .underlined-link
+    {
+        @apply text-sm text-gray-500 underline;
+    }
+
+    .underlined-link-4
+    {
+        @apply text-sm text-gray-500 underline ml-4;
+    }
+
+    .maxw6xl
+    {
+        @apply max-w-6xl mx-auto sm:px-6 lg:px-8;
+    }
+
+    .flex-justify
+    {
+        @apply flex justify-center pt-8 sm:justify-start sm:pt-0;
+    }
+
+    .text-style-1
+    {
+        @apply ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white;
+    }
+
+    .class-1
+    {
+        @apply mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg;
+    }
+
+    .class-2
+    {
+       @apply grid grid-cols-1 md:grid-cols-2
+    }
+}

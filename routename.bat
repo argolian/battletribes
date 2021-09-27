@@ -1,0 +1,1 @@
+@ php artisan route:list --name="%1"
